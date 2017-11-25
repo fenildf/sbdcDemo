@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <link href="./css/mui.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/base.css">
+</head>
+
+<body>
+    <div class="mui-content">
+        <div id="slider" class="mui-slider">
+            <div id="nav" class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+                <div id="smallNav">
+                    <a class="mui-control-item mui-active" href="#beidanci">背单词</a>
+                    <a class="mui-control-item" href="#jindu">进度</a>
+                    <a class="mui-control-item" href="#ciku">词库</a>
+                    <a class="mui-control-item" href="#kuozhanbao">扩展包</a>
+                </div>
+                <div id="bigNav">
+                    <a href="#beidanci" class=" mui-active"></a>
+                    <a href="#shanbei" class="mui-control-item"></a>
+                    <a href="#geren" class="mui-control-item"></a>
+                    <a href="javascript:void()"></a>
+                    <a href="#jingxuan"></a>
+                </div>
+            </div>
+            <div id="progressBar" class="mui-slider-progress-bar mui-col-xs-3"></div>
+            <div class="mui-slider-group">
+                <div id="beidanci" class="mui-slider-item mui-control-content mui-active">
+                    <div id="slider1scroll1" class="mui-scroll-wrapper">
+                        <div class="mui-scroll">
+                            <div class="mui-card">
+                                <!--内容区-->
+                                <div class="mui-card-content">
+                                    <div class="mui-row">
+                                        <div class="mui-col-xs-5">
+                                            <p id="days">504</p>
+                                            <p>打卡天数</p>
+                                        </div>
+                                        <div class="mui-col-xs-7">
+                                            <p><span class="dancishu">8074</span><span>/累计学习单词数</span></p>
+                                            <p><span class="dancishu">7966</span><span>/掌握单词数</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mui-card">
+                                <!--内容区-->
+                                <div class="mui-card-content">
+                                    <div class="mui-row">
+                                        <div class="mui-col-xs-3">
+                                            <p class="dancishu">50</p>
+                                            <p>今日单词</p>
+                                        </div>
+                                        <div class="mui-col-xs-3">
+                                            <p class="dancishu">10</p>
+                                            <p>新词数</p>
+                                        </div>
+                                        <div class="mui-col-xs-3">
+                                            <p class="wancheng">0</p>
+                                            <p>已完成</p>
+                                        </div>
+                                        <div class="mui-col-xs-3">
+                                            <a href="#" id="beginBtn">开始</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mui-card" id="appLinks">
+                                <!--内容区-->
+                                <div class="mui-card-content">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <p></p>
+                                                <p>口语</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <p></p>
+                                                <p>听力</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <p></p>
+                                                <p>阅读</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <p></p>
+                                                <p>读书</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <p></p>
+                                                <p>炼句</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="mui-card" id="banner">
+                                <!--内容区-->
+                                <div class="mui-card-content">
+                                    <a href="#"><img src="./img/1-adv.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="mui-card" id="meiriyiju">
+                                <!--内容区-->
+                                <div class="mui-card-content">
+                                    <p>每日一句</p>
+                                    <div>
+                                        <p id="enSen">Discovery consists of seeing what everybody has seen and thinking what nobody has thought.</p>
+                                        <p id="cnSen">要有所发现，就要见别人见过的，想没人想过的。</p>
+                                        <p id="author">— Albert Szent-Gyorgyi</p>
+                                    </div>
+                                    <p class="adv">关注微信号<a href="#">shanbei17</a>，可以查看历史的每日一句</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="jindu" class="mui-slider-item mui-control-content">
+                    <div class="mui-card" id="jinduquxian">
+                        <!--内容区-->
+                        <div class="mui-card-content">
+                            <p>进度曲线</p>
+                            <p>
+                                <img src="./img/jinbuquxian.png" alt="">
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mui-card" id="meirifuxipandian">
+                        <div class="mui-card-content">
+                            <p>每日复习盘点<span><i></i>已学</span><span><i></i>要学</span></p>
+                            <p>
+                                <img src="./img/meirifuxipandian.png" alt="">
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mui-card" id="dancishuju">
+                        <div class="mui-card-content">
+                            <ul>
+                                <li>
+                                    <p>单词总数</p>
+                                    <p class="dancishu">8074</p>
+                                </li>
+                                <li>
+                                    <p>已经掌握</p>
+                                    <p class="dancishu">7966</p>
+                                </li>
+                                <li>
+                                    <p>正在学习</p>
+                                    <p class="dancishu">89</p>
+                                </li>
+                                <li>
+                                    <p>新词</p>
+                                    <p class="dancishu">19</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="ciku" class="mui-slider-item mui-control-content">
+                    <div>
+                        <p>六级考试大纲词表（2016版）</p>
+                        <a href="#"><img src="./img/ciku-book.png" alt=""></a>
+                        <p>已完成<span>57.95%</span></p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><a href="#">我的单词书</a></li>
+                            <li><a href="#">我的词库</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="kuozhanbao" class="mui-slider-item mui-control-content">
+                    <div class="mui-card">
+                        <!--内容区-->
+                        <div class="mui-card-content">
+                            <a href="#">
+                                <img src="./img/kuozhanbao-p1.png" alt="">
+                                <p class="title">派生联想</p>
+                                <p class="intro">通过构词法和语义联想，把单词拼成树</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mui-card">
+                        <!--内容区-->
+                        <div class="mui-card-content">
+                            <a href="#">
+                                <img src="./img/kuozhanbao-p2.png" alt="">
+                                <p class="title">智慧词根</p>
+                                <p class="intro">词根体现单词的本质含义，学习单词更轻</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mui-card">
+                        <!--内容区-->
+                        <div class="mui-card-content">
+                            <a href="#">
+                                <img src="./img/kuozhanbao-p1.png" alt="">
+                                <p class="title">柯林斯词典</p>
+                                <p class="intro">权威的英文词典，用英文学英文</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="shanbei" class="mui-slider-item mui-control-content">
+                    <ul>
+                        <li>
+                            <a href="#"><i></i>自习室</a>
+                        </li>
+                        <li>
+                            <a href="#"><i></i>论坛</a>
+                        </li>
+                        <li>
+                            <a href="#"><i></i>小组</a>
+                        </li>
+                        <li>
+                            <a href="#"><i></i>活动</a>
+                        </li>
+                        <li>
+                            <a href="#"><i></i>扇贝精选</a>
+                        </li>
+                        <li>
+                            <a href="#"><i></i>扇贝课程</a>
+                        </li>
+                        <li>
+                            <a href="#"><i></i>扇贝商店</a>
+                        </li>
+                        <li>
+                            <a href="#"><i></i>扇贝家族</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="geren" class="mui-slider-item mui-control-content">
+                    <div>
+                        <a href="#">
+                            <p><img src="./img/headpic.png"></p>
+                            <p>杉杉杉杉械</p>
+                        </a>
+                    </div>
+                    <div class="mui-card">
+                        <!--内容区-->
+                        <div class="mui-card-content">
+                            <ul>
+                                <li><a href="#">徽章墙<span>></span></a></li>
+                                <li><a href="#">打卡<span>></span><span>504天</span></a></li>
+                                <li><a href="#">啦啦队<span>></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mui-card">
+                        <!--内容区-->
+                        <div class="mui-card-content">
+                            <ul>
+                                <li><a href="#">贝壳<span>></span><span>19305个</span></a></li>
+                                <li><a href="#">兑换<span>></span></a></li>
+                                <li><a href="#">保险<span>></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mui-card">
+                        <!--内容区-->
+                        <div class="mui-card-content">
+                            <ul>
+                                <li><a href="#">短信<span>></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mui-card">
+                        <!--内容区-->
+                        <div class="mui-card-content">
+                            <ul>
+                                <li><a href="#">帮助与反馈<span>></span></a></li>
+                                <li><a href="#">设置<span>></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/mui.min.js"></script>
+    <script src="./js/zepto.min.js"></script>
+    <script>
+        (function() {
+            $('.mui-scroll-wrapper').scroll({
+                // indicators: true //是否显示滚动条
+            });
+            document.getElementById('slider').addEventListener('slide', function(e) {
+                if (e.detail.slideNumber === 0) {
+                    $("#bigNav").children().eq(0).addClass("mui-active").siblings().removeClass("mui-active");
+                    $("#nav").css("height", "104px");
+                    $("#smallNav,#progressBar").show();
+                    $("body,.mui-slider-item").css("height", "690px");
+                } else if (e.detail.slideNumber === 1) {
+                    $("#bigNav").children().eq(0).addClass("mui-active").siblings().removeClass("mui-active");
+                    $("#nav").css("height", "104px");
+                    $("#smallNav,#progressBar").show();
+                    $("body,.mui-slider-item").css("height", "660px");
+                } else if (e.detail.slideNumber === 2) {
+                    $("#bigNav").children().eq(0).addClass("mui-active").siblings().removeClass("mui-active");
+                    $("#nav").css("height", "104px");
+                    $("#smallNav,#progressBar").show();
+                    $("body,.mui-slider-item").css("height", "500px");
+                } else if (e.detail.slideNumber === 3) {
+                    $("#bigNav").children().eq(0).addClass("mui-active").siblings().removeClass("mui-active");
+                    $("#smallNav,#progressBar").show();
+                    $("#nav").css("height", "104px");
+                    $("body,.mui-slider-item").css("height", "570px");
+                } else if (e.detail.slideNumber === 4) {
+                    $("#bigNav").children().eq(1).addClass("mui-active").siblings().removeClass("mui-active");
+                    $("#nav").css("height", "66px");
+                    $("#smallNav,#progressBar").hide();
+                    $("body,.mui-slider-item").css("height", "660px");
+                } else if (e.detail.slideNumber === 5) {
+                    $("#bigNav").children().eq(2).addClass("mui-active").siblings().removeClass("mui-active");
+                    $("#nav").css("height", "66px");
+                    $("#smallNav,#progressBar").hide();
+                    $("body,.mui-slider-item").css("height", "720px");
+                }
+                $("#bigNav").children().eq(0).on("mouseover", function() {
+                    // $("#smallNav").children().eq(0)[0].click();
+                });
+            });
+        })(window, mui)
+    </script>
+</body>
+
+</html>
