@@ -1,0 +1,436 @@
+@charset "UTF-8";
+#nav {
+  height: 104px;
+  position: relative;
+}
+#nav #smallNav {
+  width: 100%;
+  position: absolute;
+  top: 66px;
+  color: #999;
+}
+#nav #smallNav a {
+  display: block;
+  float: left;
+  width: 25%;
+}
+#nav #smallNav .mui-active {
+  color: #209E85;
+}
+#nav #bigNav {
+  position: absolute;
+  top: 0;
+  margin: 0;
+  padding: 10px 10px 10px 10px;
+  width: 100%;
+  height: 66px;
+  background-color: #209E85;
+}
+#nav #bigNav a {
+  position: relative;
+  display: block;
+  width: 33px;
+  height: 56px;
+}
+#nav #bigNav a:nth-child(1) {
+  background: url(../img/2.png) no-repeat -20px -62px;
+}
+#nav #bigNav a:nth-child(1).mui-active {
+  background: url(../img/1.png) no-repeat -20px -62px;
+}
+#nav #bigNav a:nth-child(2) {
+  background: url(../img/1.png) no-repeat -91px -62px;
+}
+#nav #bigNav a:nth-child(2).mui-active {
+  background: url(../img/2.png) no-repeat -91px -62px;
+}
+#nav #bigNav a:nth-child(3) {
+  background: url(../img/1.png) no-repeat -160px -62px;
+  margin-right: 0;
+}
+#nav #bigNav a:nth-child(3).mui-active {
+  background: url(../img/3.png) no-repeat -160px -62px;
+}
+#nav #bigNav a:nth-child(4) {
+  background: url(../img/2.png) no-repeat -430px -62px;
+  margin-left: 20px;
+}
+#nav #bigNav a:nth-child(4).more {
+  background: url(../img/1.png) no-repeat -430px -62px;
+}
+#nav #bigNav a:nth-child(5) {
+  background: url(../img/2.png) no-repeat -356px -62px;
+}
+#nav #bigNav a:nth-child(1),
+#nav #bigNav a:nth-child(2),
+#nav #bigNav a:nth-child(3) {
+  float: left;
+  overflow: hidden;
+  margin-right: 20px;
+}
+#nav #bigNav a:nth-child(4),
+#nav #bigNav a:nth-child(5) {
+  float: right;
+}
+#progressBar {
+  background-color: #209E85;
+}
+.mui-slider-group {
+  background-color: #F0EFF3;
+}
+#beidanci {
+  height: 690px;
+  font-size: 12px;
+}
+#beidanci .mui-card {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+  box-shadow: none;
+}
+#beidanci .mui-card p {
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+#beidanci .mui-card #days {
+  margin-bottom: 0;
+  height: 36px;
+  line-height: 36px;
+  color: #209E85;
+  font-size: 36px;
+}
+#beidanci .mui-card .dancishu {
+  color: #333;
+  font-size: 20px;
+}
+#beidanci .mui-card .wancheng {
+  font-size: 20px;
+  color: #209E85;
+}
+#beidanci .mui-card #beginBtn {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #209E85;
+  color: #fff;
+  line-height: 45px;
+}
+#beidanci .mui-card#appLinks {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+#beidanci .mui-card#appLinks ul {
+  margin: 0;
+  padding: 10px 0 0 0;
+}
+#beidanci .mui-card#appLinks ul li {
+  list-style: none;
+  margin: 0;
+  float: left;
+  width: 20%;
+}
+#beidanci .mui-card#appLinks ul li a {
+  text-align: center;
+}
+#beidanci .mui-card#appLinks ul li a p:nth-child(1) {
+  margin: 0 auto;
+  margin-bottom: 0;
+  width: 65px;
+  height: 65px;
+  display: block;
+}
+#beidanci .mui-card#appLinks ul li:nth-child(1) p:nth-child(1) {
+  background: url(../img/1-links.png) -10px 0px;
+}
+#beidanci .mui-card#appLinks ul li:nth-child(2) p:nth-child(1) {
+  background: url(../img/1-links.png) -100px 0px;
+}
+#beidanci .mui-card#appLinks ul li:nth-child(3) p:nth-child(1) {
+  background: url(../img/1-links.png) -190px 0px;
+}
+#beidanci .mui-card#appLinks ul li:nth-child(4) p:nth-child(1) {
+  background: url(../img/1-links.png) -280px 0px;
+}
+#beidanci .mui-card#appLinks ul li:nth-child(5) p:nth-child(1) {
+  background: url(../img/1-links.png) -370px 0px;
+}
+#beidanci .mui-card#banner {
+  margin: 10px;
+  padding: 0;
+}
+#beidanci .mui-card#banner a {
+  display: block;
+  width: 100%;
+}
+#beidanci .mui-card#banner a img {
+  width: 100%;
+}
+#beidanci .mui-card#meiriyiju {
+  padding: 0;
+}
+#beidanci .mui-card#meiriyiju p {
+  padding: 0 10px;
+  text-align: left;
+}
+#beidanci .mui-card#meiriyiju .mui-card-content > p:nth-child(1) {
+  height: 25px;
+  font-size: 14px;
+  line-height: 25px;
+  color: #aaa;
+  border-bottom: 1px solid #F0EFF3;
+}
+#beidanci .mui-card#meiriyiju .mui-card-content > div p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #777;
+}
+#beidanci .mui-card#meiriyiju .mui-card-content > div p#enSen {
+  color: #111;
+}
+#beidanci .mui-card#meiriyiju .mui-card-content > div p#author {
+  text-align: right;
+}
+#beidanci .mui-card#meiriyiju .mui-card-content > p:nth-child(3) {
+  background-color: #ddd;
+  height: 25px;
+  line-height: 25px;
+  margin: 0 0 0 0;
+}
+#beidanci .mui-card#meiriyiju .mui-card-content > p:nth-child(3) a {
+  padding: 5px;
+  color: #209E85;
+}
+#jindu {
+  height: 615px;
+}
+#jindu #jinduquxian {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 20px 10px;
+}
+#jindu #meirifuxipandian {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 20px 10px;
+}
+#jindu #meirifuxipandian p span {
+  padding: 0 5px;
+  line-height: 20px;
+  float: right;
+}
+#jindu #meirifuxipandian p span:nth-child(1) i {
+  margin-right: 5px;
+  display: inline-block;
+  width: 18px;
+  height: 14px;
+  background-color: #209E85;
+}
+#jindu #meirifuxipandian p span:nth-child(2) i {
+  margin-right: 5px;
+  display: inline-block;
+  width: 18px;
+  height: 14px;
+  background-color: #F0EFF3;
+}
+#jindu #dancishuju {
+  margin: 0;
+  padding: 0;
+}
+#jindu #dancishuju ul {
+  margin: 0;
+  padding: 10px;
+}
+#jindu #dancishuju ul li {
+  border-right: 1px solid #F0EFF3;
+  float: left;
+  width: 25%;
+  text-align: center;
+  list-style: none;
+}
+#jindu #dancishuju ul li:last-child {
+  border: none;
+}
+#jindu #dancishuju ul li p {
+  color: #111;
+}
+#jindu #dancishuju ul li p.dancishu {
+  font-size: 18px;
+}
+#ciku > div:nth-child(1) {
+  margin: 0;
+  padding: 30px;
+  background-color: #F0EFF3;
+  text-align: center;
+}
+#ciku > div:nth-child(1) p:nth-child(1) {
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #111;
+}
+#ciku > div:nth-child(1) a:nth-child(2) {
+  margin: 0 auto;
+  display: block;
+  width: 60%;
+}
+#ciku > div:nth-child(1) a:nth-child(2) img {
+  width: 100%;
+}
+#ciku > div:nth-child(1) p:nth-child(3) {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #696969;
+}
+#ciku > div:nth-child(2) {
+  margin: 0;
+  padding: 20px 10px;
+  background-color: #fff;
+}
+#ciku > div:nth-child(2) ul {
+  margin: 0;
+  padding: 0;
+  height: 30px;
+}
+#ciku > div:nth-child(2) ul li {
+  float: left;
+  width: 50%;
+  list-style: none;
+  text-align: center;
+}
+#ciku > div:nth-child(2) ul li a {
+  display: block;
+  height: 30px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #696969;
+}
+#ciku > div:nth-child(2) ul li a:nth-child(1) {
+  border-right: 1px solid #F0EFF3;
+}
+#kuozhanbao .mui-card {
+  box-shadow: none;
+  border-radius: 10px;
+  margin: 30px 10px;
+  padding: 15px 20px;
+  height: 150px;
+}
+#kuozhanbao .mui-card a {
+  height: 120px;
+  display: block;
+}
+#kuozhanbao .mui-card a img {
+  float: left;
+  width: 120px;
+  height: 120px;
+  margin-right: 12px;
+}
+#kuozhanbao .mui-card a p.title {
+  padding-top: 10px;
+  height: 40px;
+  font-size: 18px;
+  line-height: 40px;
+  color: #73993E;
+}
+#kuozhanbao .mui-card a P.intro {
+  font-size: 14px;
+  font-weight: 400;
+  color: #111;
+  line-height: 26px;
+}
+#shanbei {
+  height: 660px;
+}
+#shanbei ul {
+  margin: 0;
+  padding-left: 20px;
+}
+#shanbei ul li {
+  margin: 0;
+  padding: 10px 0;
+  height: 75px;
+  list-style: none;
+}
+#shanbei ul li a {
+  display: block;
+  font-size: 18px;
+  line-height: 55px;
+  font-weight: 400;
+  color: #111;
+}
+#shanbei ul li a i {
+  float: left;
+  margin-right: 15px;
+  width: 55px;
+  height: 55px;
+  background: url(../img/2-icon1.png) no-repeat;
+}
+#shanbei ul li:nth-child(1) a i {
+  background: url(../img/2-icon2.png) no-repeat 0px 0px;
+}
+#shanbei ul li:nth-child(2) a i {
+  background-position: 0px 0px;
+}
+#shanbei ul li:nth-child(3) a i {
+  background-position: 0px -84px;
+}
+#shanbei ul li:nth-child(4) {
+  margin-bottom: 20px;
+}
+#shanbei ul li:nth-child(4) a i {
+  background-position: 0px -168px;
+}
+#shanbei ul li:nth-child(5) a i {
+  background-position: 0px -304px;
+}
+#shanbei ul li:nth-child(6) {
+  margin-bottom: 20px;
+}
+#shanbei ul li:nth-child(6) a i {
+  background-position: 0px -388px;
+}
+#shanbei ul li:nth-child(7) a i {
+  background-position: 0px -522px;
+}
+#shanbei ul li:nth-child(8) a i {
+  background-position: 0px -606px;
+}
+#geren > div:nth-child(1) {
+  padding-top: 20px;
+}
+#geren > div:nth-child(1) a p {
+  font-size: 18px;
+  color: #111;
+  text-align: center;
+}
+#geren > div:nth-child(1) a img {
+  width: 112px;
+  height: 112px;
+}
+#geren .mui-card {
+  box-shadow: none;
+  width: 100%;
+  margin: 10px 0;
+  padding: 16px;
+  overflow: hidden;
+  height: auto;
+}
+#geren .mui-card ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#geren .mui-card ul li {
+  height: 40px;
+}
+#geren .mui-card ul li a {
+  color: #111;
+  font-size: 18px;
+  line-height: 40px;
+}
+#geren .mui-card ul li a span {
+  padding: 0 5px;
+  float: right;
+}
